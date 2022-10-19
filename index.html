@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela 1</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="okscreen" id="okscreen">
+        <i class='bx bx-happy-heart-eyes bx-tada' ></i>
+        <h1>Demanda Enviada com sucesso</h1>
+    </div>
+    <main>
+        <div class="agrup">
+            <div class="box">
+                <img src="assets/img/servidor-de-armazenamento-em-nuvem-upload-de-dados-de-celular-rack-de-sala-de-servidores_39422-441.webp" class="img">
+                <div class="upload">
+                    <div class="input">
+                        <div class="center">
+                            <input type="file" id="file">
+                            <label for="file">
+                                <div class="img_upload">
+                                    <i class='bx bxs-camera' id="icam"></i>
+                                    <img src="" id="uimg">
+                                </div>
+                            </label>
+                        </div>
+                        <select class="opt">
+                            <option value="#">Secretaria de Educação de Pernambuco</option>
+                            <option value="#">Secretaria Estadual de Saúde de Pernambuco</option>
+                        </select>
+                        <div class="inp_text_area">
+                            <span class="opa">
+                                <label for="ruaname">Nome da Rua ?</label>
+                                <input type="text" id="ruaname" placeholder="....">
+                            </span>
+                            <span class="opa">
+                                <label for="pontoname">Ponto de Referência ?</label>
+                                <input type="text" id="pontoname" placeholder="....">
+                            </span>
+                        </div>
+                        <div class="men-area">
+                            <label for="menssagem" class="men">Mensagem</label>
+                            <textarea cols="30" id="menssagem" rows="10" placeholder="Mensagem" class="msg"></textarea>
+                        </div>
+                        <input type="button" value="Enviar Demanda" class="submit" id="btn">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

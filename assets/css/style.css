@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #121724;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    display: flex;
+    height: 550px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.upload{
+    height: 100%;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding:  15px;
+    box-sizing: border-box;
+    gap: 13px;
+    overflow: auto;
+    flex: none;
+    transition: transform .6s ease;
+    transform: translate(-350px , 0);
+    border-radius: 0 15px 15px 0;
+}
+.show{
+    transform: translate(0 , 0);
+}
+.img{
+    height: 100%;
+    width: 450px;
+    max-width: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.agrup{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.img_upload{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #131313;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.img_upload i{
+    color: white;
+    font-size: 40px;
+}
+.submit{
+    background-color: #5F5DEF;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 999px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0px 10px 13px -7px #5F5DEF, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.opa{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.men{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.opa input{
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border-radius: 999px;
+    outline: none;
+    border: thin solid #121724;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.inp_text_area{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.opt{
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border-radius: 999px;
+    outline: none;
+    border: thin solid #121724;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.msg{
+    padding: 10px;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 15px;
+}
+.men-area{
+    background-color: whitesmoke;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+#file{
+    display: none;
+}
+#uimg{
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.okscreen{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    text-transform: uppercase;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s ease , visibility .6s ease;
+}
+.showscreen{
+    visibility: visible;
+    opacity: 1;
+}
+.bx-happy-heart-eyes{
+    font-size: 160px;
+}

@@ -1,0 +1,141 @@
+main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.menu{
+    height: 60px;
+    background-color: white;
+    width: 100%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tititi{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+.uls{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.uls ul{
+   display: flex;
+   gap: 20px;
+}
+.uls ul li{
+    list-style-type: none;
+}
+.uls ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.perfi{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    background-image: url('../img/perfil-fashion.png');
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.bottom{
+    padding: 30px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.perfi-bot{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+.init{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 2px solid white;
+    padding: 20px 0;
+}
+.texts{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.saudo{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+.dois{
+    margin-top: 10px;
+    color: white;
+}
+.dois h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dois span{
+    width: 120px;
+    height: 30px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 5px;
+}
+.spans{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+.caixas{
+    margin-top: 20px;
+}
+.caixa{
+    width: 310px;
+    height: 180px;
+    background-color: #131313;
+    border-radius: 20px;
+    border: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-image: url('../img/perfil-fashion.png');
+    position: relative;
+    overflow: hidden;
+}
+.caixa::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #131313b7;
+    backdrop-filter: blur(6px);
+    
+}
+.caixa img{
+    border-radius: 50%;
+    z-index: 1;
+}
+.caixa input{
+    border: 1px solid white;
+    padding: 10px ;
+    background-color: transparent;
+    color: white;
+    z-index: 1;
+    border-radius: 20px;
+    cursor: pointer;
+}
