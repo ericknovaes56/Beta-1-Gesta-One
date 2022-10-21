@@ -1,3 +1,6 @@
+main{
+    flex-direction: column;
+}
 .title{
     display: flex;
     gap: 15px;
@@ -153,4 +156,56 @@
 }
 .apaga3{
     display: none;
+}
+.pen{
+    border: 2px solid #FEB09C;
+}
+.confirm{
+    border: 2px solid #4FB93F;
+}
+.product{
+    border: 2px solid #EDC235;
+}
+.menu{
+    height: 60px;
+    background-color: white;
+    width: 100%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tititi{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+.uls{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.uls ul{
+   display: flex;
+   gap: 20px;
+}
+.uls ul li{
+    list-style-type: none;
+}
+.uls ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.perfi{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    background-image: url('../img/unnamed.jpg');
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
 }

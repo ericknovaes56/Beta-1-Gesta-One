@@ -4,12 +4,15 @@
 }
 body{
     background-color: #121724;
+    background-image: url(../img/GestaOne.jpg);
 }
 main{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
+
 }
 .box{
     display: flex;
@@ -182,4 +185,59 @@ main{
 }
 .bx-happy-heart-eyes{
     font-size: 160px;
+}
+.menu{
+    height: 60px;
+    background-color: white;
+    width: 100%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.tititi{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    display: flex;
+    align-items: center; gap: 7px;
+}
+.uls{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.uls ul{
+   display: flex;
+   gap: 20px;
+}
+.uls ul li{
+    list-style-type: none;
+}
+.uls ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.perfi{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    background-image: url('../img/perfil-fashion.png');
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.logo{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
 }
